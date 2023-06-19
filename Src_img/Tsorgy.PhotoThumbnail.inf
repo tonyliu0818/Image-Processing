@@ -1,0 +1,32 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=tsorgy@gmail.com, 2009
+
+[DefaultInstall]
+AddReg=photo_AddReg
+
+[photo_AddReg]
+hkcr,".tga\ShellEx\{BB2E617C-0920-11d1-9A0B-00C04FC2D6C1}",,,"{E6693BDA-B84B-417B-909E-6CF4A4062435}"
+hkcr,".tga","PerceivedType",,"image"
+hkcr,".pcx\ShellEx\{BB2E617C-0920-11d1-9A0B-00C04FC2D6C1}",,,"{E6693BDA-B84B-417B-909E-6CF4A4062435}"
+hkcr,".pcx","PerceivedType",,"image"
+
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}",,,"Tsorgy.PhotoThumbnail"
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}",,,
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\InprocServer32",,,"mscoree.dll"
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\InprocServer32","ThreadingModel",,"Both"
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\InprocServer32","Class",,"Tsorgy.PhotoThumbnail"
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\InprocServer32","Assembly",,"Tsorgy.PhotoThumbnail, Version=1.0.0.0, Culture=neutral, PublicKeyToken=eeaf60c9b94907e2"
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\InprocServer32","RuntimeVersion",,"v2.0.50727"
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\InprocServer32","CodeBase",,"file:///%01%\Tsorgy.PhotoThumbnail.DLL"
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\InprocServer32\1.0.0.0","Class",,"Tsorgy.PhotoThumbnail"
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\InprocServer32\1.0.0.0","Assembly",,"Tsorgy.PhotoThumbnail, Version=1.0.0.0, Culture=neutral, PublicKeyToken=eeaf60c9b94907e2"
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\InprocServer32\1.0.0.0","RuntimeVersion",,"v2.0.50727"
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\InprocServer32\1.0.0.0","CodeBase",,"file:///%01%\Tsorgy.PhotoThumbnail.DLL"
+hkcr,"CLSID\{E6693BDA-B84B-417B-909E-6CF4A4062435}\ProgId",,,"Tsorgy.PhotoThumbnail"
+hkcr,"Tsorgy.PhotoThumbnail",,,"Tsorgy.PhotoThumbnail"
+hkcr,"Tsorgy.PhotoThumbnail\CLSID",,,"{E6693BDA-B84B-417B-909E-6CF4A4062435}"
+
+hklm,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved","{E6693BDA-B84B-417b-909E-6CF4A4062435}",,"PhotoThumbnail"
+
+[Strings]
